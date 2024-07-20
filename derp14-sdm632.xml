@@ -3,6 +3,7 @@
 
 <!-- Tracking -->
   <remote name="track" fetch="https://github.com" />
+  <remote name="gitea" fetch="https://gitea.com" />
 
 <!-- Additional -->
   <project path="hardware/motorola" name="LineageOS/android_hardware_motorola" remote="track" revision="lineage-21" />
@@ -21,5 +22,8 @@
 
 <!-- Kernel -->
   <project path="kernel/motorola/sdm632" name="DerpFest-Devices/kernel_motorola_sdm632" remote="track" revision="14" />
+
+<!-- Keys -->
+  <project path="vendor/derp/signing/keys/" name="Vhmit/vendor_signing_keys" remote="gitea" revision="master" />
 
 </manifest>
