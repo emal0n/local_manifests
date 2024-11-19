@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Tracking -->
+  <remote name="track" fetch="https://github.com" />
+ 
+<!-- Additional -->
+  <project path="hardware/motorola" name="moto-stuffs/android_hardware_motorola" remote="track" revision="fifteen" />
+ 
+<!-- Trees -->
+  <project path="device/motorola/ocean" name="DerpFest-Devices/device_motorola_ocean" remote="track" revision="15" />
+  <project path="device/motorola/river" name="DerpFest-Devices/device_motorola_river" remote="track" revision="15" />
+  <project path="device/motorola/sdm632-common" name="DerpFest-Devices/device_motorola_sdm632-common" remote="track" revision="15" />
+
+<!-- Vendors -->
+  <project path="vendor/motorola/ocean" name="DerpFest-Devices/vendor_motorola_ocean" remote="track" revision="15" />
+  <project path="vendor/motorola/river" name="DerpFest-Devices/vendor_motorola_river" remote="track" revision="15" />
+  <project path="vendor/motorola/sdm632-common" name="DerpFest-Devices/vendor_motorola_sdm632-common" remote="track" revision="15" />
+
+<!-- Kernel -->
+  <project path="kernel/motorola/sdm632" name="DerpFest-Devices/kernel_motorola_sdm632" remote="track" revision="15" />
+
+<!-- Keys -->
+  <project path="vendor/derp/signing/keys/" name="emal0n/vendor_signing_keys" remote="track" revision="master" />
+
+</manifest>
